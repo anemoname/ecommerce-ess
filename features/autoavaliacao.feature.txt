@@ -18,5 +18,6 @@ When: seleciono a seção de “autoavaliacao”
 And: vejo a opção de “atribuir_conceitos”
 And: não seleciono conceitos “MA, MPA, MANA” para todas as disciplinas
 Then: vejo a mensagem “Erro: selecionar todos os conceitos”
+Then: volto para a tela inicial
 
 

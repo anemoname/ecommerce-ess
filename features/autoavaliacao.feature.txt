@@ -1,3 +1,13 @@
 As a: aluno cadastrado no sistema
 I want to: avaliar meus conceitos em todas as disciplinas simultaneamente
 So that: elas apareçam na mesma tela das notas atribuídas pelo professor
+
+Scenario: preenchimento bem sucedido da auto-avaliação
+Given: estou logado como "nome_do_aluno"
+And: estou na página “Avaliação”
+When: seleciono a seção de “autoavaliacao”
+And: vejo a opção de “atribuir_conceitos”
+And: seleciono conceitos “MA, MPA, MANA” para todas as disciplinas
+Then: vejo a mensagem “avaliação bem sucedida”
+Then: vejo minhas notas cadastradas da parte de “autoavaliacao”
+

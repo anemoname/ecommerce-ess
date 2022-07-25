@@ -1,0 +1,3 @@
+As a: aluno cadastrado no sistema
+I want to: avaliar meus conceitos em todas as disciplinas simultaneamente
+So that: elas apareçam na mesma tela das notas atribuídas pelo professor
